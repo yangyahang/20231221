@@ -30,23 +30,6 @@ function setup() {
   inputElement.style("color","#2f3e46")
   inputElement.style("background","#f4acb7")
 
-
-  btnMoveElement=createButton("移動")
-  btnMoveElement.position(170,10)
-  btnMoveElement.size(80,40)
-  btnMoveElement.style("font-size","20px")
-  btnMoveElement.style("color","#2f3e46")
-  btnMoveElement.style("background","#f4acb7")
-  btnMoveElement.mousePressed(ball_move)
-
-  btnStopElement=createButton("暫停")
-  btnStopElement.position(270,10)
-  btnStopElement.size(80,40)
-  btnStopElement.style("font-size","20px")
-  btnStopElement.style("color","#2f3e46")
-  btnStopElement.style("background","#f4acb7")
-  btnStopElement.mousePressed(ball_stop)
-
   btnVoiceElement=createButton("語音")
   btnVoiceElement.position(370,10)
   btnVoiceElement.size(80,40)
